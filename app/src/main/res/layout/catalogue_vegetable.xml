@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".catalogueVegetable">
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="162dp"
+                android:layout_height="43dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Vegetables"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="24dp" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="83dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/potato" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="94dp"
+                android:layout_height="28dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Potato"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="171dp" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                tools:layout_editor_absoluteX="166dp"
+                tools:layout_editor_absoluteY="83dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/tomato" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="94dp"
+                android:layout_height="28dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Tomato"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="159dp"
+                tools:layout_editor_absoluteY="171dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                tools:layout_editor_absoluteX="289dp"
+                tools:layout_editor_absoluteY="83dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/potato" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="94dp"
+                android:layout_height="28dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Carrot"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="282dp"
+                tools:layout_editor_absoluteY="171dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="223dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/potato" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="94dp"
+                android:layout_height="28dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Broccoli"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="311dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                tools:layout_editor_absoluteX="166dp"
+                tools:layout_editor_absoluteY="223dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/potato" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </ScrollView>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="94dp"
+                android:layout_height="28dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Eggplant"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="159dp"
+                tools:layout_editor_absoluteY="311dp" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                tools:layout_editor_absoluteX="289dp"
+                tools:layout_editor_absoluteY="223dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/potato" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="94dp"
+                android:layout_height="28dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Pea"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="282dp"
+                tools:layout_editor_absoluteY="311dp" />
+
+
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="351dp"
+        android:layout_height="54dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Select Items"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="653dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
