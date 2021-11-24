@@ -17,10 +17,16 @@ public class DBHelper extends SQLiteOpenHelper {
         myDB.execSQL("create Table userdetails(User_id Text primary key,Mobile_no Text,Email Text,Address Text,Password Text)");
 
     }
+    @Override
+    public void onCreate(SQLiteDatabase myDBFm) {
+        myDBFm.execSQL("create Table farmerdetails(Farmer_id Text primary key,F_ph_no Text,F_email Text,F_address Text,f_password Text)");
+
+    }
 
     @Override
     public void onUpgrade(SQLiteDatabase myDB, int oldVersion, int newVersion) {
         myDB.execSQL("drop Table if exists userdetails");
+        myDB.execSQL("drop Table if exists farmerdetails");
 
     }
     public boolean insertData(String User_id,String Mobile_no,String Email,String Address,String Password){
